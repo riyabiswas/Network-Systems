@@ -1,0 +1,15 @@
+client_folder 1 and 2: 
+udp_client.c
+Makefile
+
+server_folder 1 to 4:
+server_withfunc.c
+Makefile
+
+compile it with: gcc filename.c -o outputfilename
+
+exit out after every command.
+
+Reliability: ACK sequence numbers matched and checked for resends.
+Timeout: Sender resends packet after  seconds of not receiving ACK
+Encryption: XOR data with all Fs

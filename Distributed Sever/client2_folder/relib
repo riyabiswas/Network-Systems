@@ -1,0 +1,5 @@
+		recvfrom(sock_send, &recvd_ack, sizeof(recvd_ack), 0, (struct sockaddr *)&remote_send, sizeof(remote_send));
+		/*if(recvd_ack.seq_num != send_packet.seq_num){
+			printf("\nPacket out of order send_seq:%d, rec seq:%d",send_packet.seq_num,recvd_ack.seq_num);
+			break;
+		}*/

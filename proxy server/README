@@ -1,0 +1,18 @@
+server_folder:
+server_http.c
+Makefile
+
+run it with: gcc server_http.c -o server_http -lpthread -lm -lrt
+                      OR
+             $make clean
+             $make
+
+
+Default values obtained from ws.conf
+file opens index.html by default
+server connects to 8888 port number by default (change in ws.conf file)
+Error messages handled with appropriate headers and error messages from server
+pipelining enabled
+POST request handled with POST DATA header
+
+
