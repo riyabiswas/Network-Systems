@@ -12,3 +12,4 @@ exit out after every command.
 
 Reliability: ACK sequence numbers matched and checked for resends.
 Timeout: Sender resends packet after  seconds of not receiving ACK
+Client finds two online servers from which it can access entire file, and connects to only those servers to retrieve file.
