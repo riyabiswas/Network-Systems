@@ -12,4 +12,3 @@ exit out after every command.
 
 Reliability: ACK sequence numbers matched and checked for resends.
 Timeout: Sender resends packet after  seconds of not receiving ACK
-Encryption: XOR data with all Fs
